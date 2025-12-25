@@ -1,0 +1,136 @@
+/* to write index.html  css  website theem black and white   */
+/* make this website responsive so use responsive design and styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #000000;
+    padding: 1rem 0;
+    color: white;
+    
+    box-shadow: 0 2px 4px rgba(206, 206, 206, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+   color: white;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+
+    padding: 0 15px;
+    font-size: 16px;
+    
+}
+
+main {
+    display: flex;
+}
+
+/* these are 3 parts but center part get more part of screen and left and write adjust */
+/* left 25%, right 30%, center 35% */
+
+
+
+.left-column, .center-column, .right-column {
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.left-column {
+    flex-basis: 20%;
+    padding: 20px;
+}   
+/*  to style left part  */
+#bookImg {
+    height: 200px;
+    width: 150px;   
+    margin-bottom: 15px;
+}
+
+
+     /* make center column take more space */
+.center-column {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+/* right column style */
+.right-column {
+    flex-basis: 30%;
+    padding: 2rem;
+}
+/* image  circle with border */
+
+.right-column img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h2 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+span{
+    color:rgb(243, 85, 85);
+}
+/*  to styele social media links and images */
+.right-column .social-media  img{
+    height: 40px;
+    width: 40px;
+    
+}
+.right-column .social-media a {
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
