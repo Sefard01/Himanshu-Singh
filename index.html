@@ -1,109 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Himanshu Singh</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header>
-      <!-- make a nav bar logo text and some links and logo is link index.html file links are blog books and about and contact     -->
-      <nav>
-        <div class="logo"><a href="index.html">Himanshu Singh</a></div>
-        <ul class="nav-links">
-          <li><a href="#blogs">blogs</a></li>
-          <li><a href="#books">Books</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- to make main contant are devide into 3 parts left center   right  -->
-      <!-- left -->
-      <div class="left-column">
-        <h2>Somthing New</h2>
-        <a href="The_human_cloud[1].pdf"
-          ><img src="assets/the_human_cloud.jpg" alt="The Human Cloud" id="bookImg"
-        /></a>
 
-        <a href="Main Sochta Hoon Ki Main Sochta Hoon.pdf"
-          ><img
-            src="assets/mainSochtaHunKiMainSochtaHun.png"
-            alt="mainSochtaHunKiMainSochtaHun" id="bookImg"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshu Singh</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+<header>
+  <nav>
+
+    <div class="mobile-header">
+      <button id="menuToggle">☰</button>
+      <input type="text" id="searchInput" placeholder="Search blogs, books, author info...">
+    </div>
+
+    <div class="logo">
+      <a href="index.html">Himanshu Singh</a>
+    </div>
+
+    <ul class="nav-links" id="mobileMenu">
+      <li><a href="#blogs">Blogs</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+  <main class="searchable-area">
+    <!-- to make main contant are devide into 3 parts left center   right  -->
+    <!-- left -->
+    <div class="left-column searchable-area ">
+      <h2>Something New</h2>
+      <!-- to render all books -->
+      <div id="booksContainer"></div>
+
+
+
+
+<div id="pdfViewerModal">
+  <div class="pdf-header">
+    <span id="closePdf">✕</span>
+    <span id="pdfTitle">Reading...</span>
+  </div>
+  <iframe id="pdfFrame"></iframe>
+</div>
+
+
+
+
+
+
+      <!-- my poems -->
+      <h2>My Poems</h2>
+   <ul id="poemsContainer"></ul>
+
+    </div>
+
+    <!-- center -->
+    <div class="center-column ">
+      <h1>Himanshu Singh — Developer, Writer, Digital Artist</h1>
+
+      <p>
+        Hello! I'm Himanshu Singh, a passionate writer and developer. This website is my digital
+        notebook where I publish my projects, books, theories, and experiments.
+      </p>
+      <h2 id="blogs">Latest Writing</h2>
+      <p>Short thoughts on thinking, coding, and becoming human in a digital world. First essays coming soon.</p>
+
+      <!-- make a list of blog posts with links -->
+      <h2>Projects</h2>
+
+      <ul class="projectsContainer" id="projects"></ul>
+
+
+      <h2 id="about">About Himanshu Singh</h2>
+      <img src="assets/aboutMe.png " alt="About Himanshu Singh" id="aboutMe" />
+      <h1>Himanshu Singh</h1>
+      <span class="tagline">Developer × Author</span>
+
+      <p class="quote">
+        I build products with logic and people with words.
+      </p>
+
+      <p>
+        Himanshu Singh is a full-stack developer and author exploring the intersection
+        of technology, creativity, and human thinking. He writes about how people
+        learn, forget, observe, build, and become — blending research, real-life
+        experiences, and reflective storytelling.
+      </p>
+
+      <p>
+        His work ranges from web applications and developer education to Hindi-English
+        essays and poetry such as <span>“मैं सोचता हूँ कि मैं सोचता हूँ”</span> and
+        <span>“The Human Cloud.”</span> Whether he’s debugging JavaScript or dissecting the
+        mind, his goal is the same: make complex things simple and human.
+      </p>
+
+
+      <p>
+        To collaborate, build, or exchange ideas, feel free to reach out and explore
+        the work.
+      </p>
+
+    </div>
+
+
+
+
+
+    <!-- right -->
+    <div class="right-column searchable-area">
+      <!-- make a search input -->
+      <input type="text" id="searchInput" placeholder="Search articles, books, projects…" />
+
+      <h2>Quick Bio</h2>
+
+      <img src="assets/me.png" alt="Author Image" />
+      <p>
+        <span>Himanshu Singh</span> is a writer who codes. He shares his journey through
+        <span>writing and development.</span>
+      </p>
+      <!-- add social media links with svg icons -->
+      <h2>Follow Me</h2>
+      <div class="social-media">
+        <a href="https://www.instagram.com/0110_himanshu_singh/">
+          <img src="assets/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/MyOxySigma/">
+          <img src="assets/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://www.linkedin.com/in/himanshu-singh-81b03a295/">
+          <img src="assets/linkedin.svg" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/Sefard01">
+          <img src="assets/github.svg" alt="GitHub" />
+        </a>
+
+        <a href="https://www.threads.net/@himanshu_singh_0110">
+          <img src="assets/threads.svg" alt="Threads" />
+        </a>
       </div>
 
-      <!-- center -->
-      <div class="center-column">
-        <h1>Welcome to Himanshu Singh's personal website!</h1>
-        <p>
-          Hello! I'm Himanshu Singh, a passionate writer and developer. This is
-          my personal space on the web where I share my thoughts, projects, and
-          writings.
-        </p>
-        <h2>Latest Blog Posts</h2>
-        comming soon
-        <!-- make a list of blog posts with links -->
-        <h2>My Projects</h2>
-        <ul>
-          <li>
-            <a href="https://sefard01.github.io/Music-player-/">Music player</a>
-          </li>
-          <li><a href="#">Hot or not Website</a></li>
-          <li><a href="#">JavaScript Game</a></li>
-        </ul>
 
-        <h2>Books by Me</h2>
-        <a href="The_human_cloud[1].pdf"
-          ><img src="assets/the_human_cloud.jpg" alt="The Human Cloud" id="bookImg"
-        /></a>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Himanshu Singh — Built with HTML, CSS, JavaScript, and unhealthy levels of curiosity.</p>
 
-        <a href="Main Sochta Hoon Ki Main Sochta Hoon.pdf"
-          ><img
-            src="assets/mainSochtaHunKiMainSochtaHun.png"
-            alt="mainSochtaHunKiMainSochtaHun" id="bookImg"
-        /></a>
-      </div>
+  </footer>
 
-      <!-- right -->
-      <div class="right-column">
-        <!-- make a search input -->
-        <input type="text" placeholder="Search this Website" />
-        <h2>About the author</h2>
-        <img src="assets/me.png" alt="Author Image" />
-        <p>
-          <span>Himanshu Singh</span> is a writer who codes. He shares his journey through
-          <span>writing and development.</span>
-        </p>
-        <!-- add social media links with svg icons -->
-        <h2>Follow Me</h2>
-        <div class="social-media">
-          <a href="https://www.instagram.com/0110_himanshu_singh/">
-            <img src="assets/instagram.svg" alt="Instagram" />
-          </a>
-          <a href="https://www.facebook.com/MyOxySigma/">
-            <img src="assets/facebook.svg" alt="Facebook" />
-          </a>
-          <a href="https://www.linkedin.com/in/himanshu-singh-81b03a295/">
-            <img src="assets/linkedin.svg" alt="LinkedIn" />
-          </a>
-          <a href="https://github.com/Sefard01">
-            <img src="assets/github.svg" alt="GitHub" />
-          </a>
+<script src="logic/contant.js"></script>
+<script src="logic/render.js"></script>
+<script src="logic/search.js"></script>
 
-          <a href="https://www.threads.net/@himanshu_singh_0110">
-            <img src="assets/threads.svg" alt="Threads" />
-          </a>
-        </div>
 
-      
-      </div>
-    </main>
-    <footer>
-      <p>@Himanshu Singh -- 2025</p>
-    </footer>
-  </body>
+</body>
+
 </html>
