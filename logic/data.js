@@ -1,4 +1,5 @@
 const DATA = {
+  //                BOOKS DATA
   books: [
     {
       title: "The Human Cloud",
@@ -11,7 +12,7 @@ const DATA = {
       link: "Main Sochta Hoon Ki Main Sochta Hoon.pdf"
     }
   ],
-
+          // POEMS DATA INSTA LINK
   poems: [
     {
       title: "Result fir se.",
@@ -61,6 +62,7 @@ const DATA = {
     }
 
   ],
+            // PROJECTS DATA
 
   projects: [
     {
@@ -74,6 +76,19 @@ const DATA = {
     {
       name: "Sleepy Cursor",
       link: "https://sefard01.github.io/Sleepy-cursor-/"
+    },
+    {
+      name: "Order My Site",
+      link: "https://ordermysite.in/"
+    },
+    {
+      name: "Himanshu Singh Portfolio",
+      link: "https://sefard01.github.io/Himanshu-Singh/"
+    },
+    {
+      name: "symbol",
+      link: "https://sefard01.github.io/symbol/"
     }
+
   ]
 };
