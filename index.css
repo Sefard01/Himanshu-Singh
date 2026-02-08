@@ -72,6 +72,10 @@ main {
     flex-basis: 20%;
     padding: 20px;
 }   
+.left-colum li {
+list-style-type: none;
+
+}
  /* to style left part  */
 .bookCard {
     border: 1px solid rgb(180, 180, 180);
