@@ -59,6 +59,10 @@ const DATA = {
     {
       title: "Tum samajh paate.",
       link: "https://www.instagram.com/reel/DSoVnHnEa01/"
+    },
+    {
+      title: "रेत के महल",
+      link: "https://www.instagram.com/reel/DUw3e70kbO5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     }
 
   ],
