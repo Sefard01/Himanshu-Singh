@@ -1,16 +1,31 @@
 const DATA = {
+
+  //                BLOGS DATA
+blogs : [
+  { title: "Why I Built This", file: "why-i-built-this.html" },
+  { title: "JS Mistakes I Repeat", file: "js-mistakes.html" }
+],
+
+
   //                BOOKS DATA
   books: [
+    {
+      title: "मेरी बातें",
+      img: "assets/meriBaten.jpeg",
+      link: "मेरी बातें by Himanshu Singh.pdf"
+    },
+        {
+      title: "मैं सोचता हूँ कि मैं सोचता हूँ",
+      img: "assets/mainSochtaHunKiMainSochtaHun.png",
+      link: "Main Sochta Hoon Ki Main Sochta Hoon.pdf"
+    },
+    
     {
       title: "The Human Cloud",
       img: "assets/the_human_cloud.jpg",
       link: "The_human_cloud[1].pdf"
     },
-    {
-      title: "मैं सोचता हूँ कि मैं सोचता हूँ",
-      img: "assets/mainSochtaHunKiMainSochtaHun.png",
-      link: "Main Sochta Hoon Ki Main Sochta Hoon.pdf"
-    }
+
   ],
           // POEMS DATA INSTA LINK
   poems: [
@@ -70,6 +85,10 @@ const DATA = {
 
   projects: [
     {
+      name: "ZipMe",
+      link: "https://zipme.netlify.app"
+    },
+    {
       name: "Music Player",
       link: "https://sefard01.github.io/Music-player-/"
     },
@@ -89,10 +108,7 @@ const DATA = {
       name: "Himanshu Singh Portfolio",
       link: "https://sefard01.github.io/Himanshu-Singh/"
     },
-    {
-      name: "symbol",
-      link: "https://sefard01.github.io/symbol/"
-    }
+   
 
   ]
 };

@@ -1,3 +1,31 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+  const box = document.getElementById("Suggest");
+  const close = document.getElementById("close")
+  if (!box) return; // safety check
+
+  
+
+  function unHide() {
+    box.classList.remove("hide");
+  }
+
+  function hide() {
+    box.classList.add("hide");
+  }
+
+  setTimeout(() => {
+    unHide();
+  }, 4000);
+
+  if(close){
+    close.addEventListener('click', ()=>{
+      hide();
+    })
+  }
+
+});
+
 const booksBox = document.getElementById("booksContainer");
 const poemsBox = document.getElementById("poemsContainer");
 const projectsBox = document.getElementsByClassName("projectsContainer")[0];
@@ -29,5 +57,8 @@ const mobileMenu = document.getElementById("mobileMenu");
 menuToggle.addEventListener("click", () => {
   mobileMenu.classList.toggle("show-menu");
 });
+
+
+
 
 
