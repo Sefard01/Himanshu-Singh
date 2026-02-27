@@ -86,7 +86,7 @@ blogs : [
   projects: [
     {
       name: "ZipMe",
-      link: "https://zipme.netlify.app"
+      link: "https://sefard01.github.io/pingPong/"
     },
     {
       name: "Music Player",
