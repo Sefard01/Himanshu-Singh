@@ -12,7 +12,7 @@ blogs : [
     {
       title: "मेरी बातें",
       img: "assets/meriBaten.jpeg",
-      link: "मेरी बातें by Himanshu Singh.pdf"
+      link: "मेरी बातें.pdf"
     },
         {
       title: "मैं सोचता हूँ कि मैं सोचता हूँ",
