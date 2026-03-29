@@ -86,7 +86,7 @@ blogs : [
   projects: [
     {
       name: "ZipMe",
-      link: "https://sefard01.github.io/pingPong/"
+      link: "zipme.netlify.app"
     },
     {
       name: "Music Player",
@@ -106,7 +106,7 @@ blogs : [
     },
     {
       name: "Himanshu Singh Portfolio",
-      link: "https://sefard01.github.io/Himanshu-Singh/"
+      link: "mrsefard.netlify.app"
     },
    
 
