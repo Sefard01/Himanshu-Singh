@@ -86,7 +86,7 @@ blogs : [
   projects: [
     {
       name: "ZipMe",
-      link: "zipme.netlify.app"
+      link: "https://zipme-bcac7.web.app/"
     },
     {
       name: "Music Player",
