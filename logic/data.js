@@ -84,9 +84,14 @@ blogs : [
             // PROJECTS DATA
 
   projects: [
+
     {
       name: "ZipMe",
       link: "https://zipme-bcac7.web.app/"
+    },
+    {
+      name: "My NPM Package",
+      link: "https://www.npmjs.com/package/uptime-audit"
     },
     {
       name: "Music Player",
@@ -103,10 +108,6 @@ blogs : [
     {
       name: "Order My Site",
       link: "https://ordermysite.in/"
-    },
-    {
-      name: "Himanshu Singh Portfolio",
-      link: "mrsefard.netlify.app"
     },
    
 
